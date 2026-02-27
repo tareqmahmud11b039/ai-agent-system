@@ -1,0 +1,18 @@
+ai-agent-system/
+├── app/
+│   ├── __init__.py
+│   ├── main.py                  # FastAPI application
+│   ├── models.py                 # Pydantic request/response models
+│   └── agents/
+│       ├── __init__.py
+│       ├── retriever.py          # Retriever agent
+│       ├── summarizer.py         # Summarizer agent
+│       └── orchestrator.py       # Orchestrator agent
+├── tests/
+│   ├── __init__.py
+│   └── test_agents.py            # Unit tests for agents
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── README.md
+└── .gitignore
